@@ -1,0 +1,30 @@
+{
+	"name": "depth-theme",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "tostmakinesi32",
+	"license": "MIT",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "Depth",
+				"label": "%themeLabel%",
+				"uiTheme": "vs-dark",
+				"path": "./themes/depth-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1785431562202,
+		"targetPlatform": "undefined",
+		"size": 20195
+	}
+}
